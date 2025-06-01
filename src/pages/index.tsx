@@ -119,7 +119,7 @@ export function HomeInner() {
                 handleConnect(c, m);
               }}
             />
-            <RoomAudioRenderer />
+            {/* <RoomAudioRenderer /> */}
             <StartAudio label="Click to enable audio playback" />
           </LiveKitRoom>
         ) : (
